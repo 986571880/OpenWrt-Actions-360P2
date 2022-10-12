@@ -11,7 +11,8 @@
 name: Build OpenWrt For 360P2
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
+
 
 env:
   #REPO_URL: https://github.com/Lienol/openwrt
